@@ -9,5 +9,9 @@ def inicio():
 def consultarProductos():
     return render_template('Productos/consultarProductos.html')
 
+@app.route('/registrarProducto')
+def registrarProducto():
+    return render_template('Productos/registrarProducto.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
