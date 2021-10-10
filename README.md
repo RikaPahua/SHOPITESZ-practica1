@@ -1,0 +1,1 @@
+# ShOPITESZ-practica1
