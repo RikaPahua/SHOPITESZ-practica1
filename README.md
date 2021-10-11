@@ -1,1 +1,8 @@
 # ShOPITESZ-practica1
+En este repositorio se aborda la gestión de productos de la tienda Shopitesz
+
+INTEGRANTES DEL EQUIPO:
+* MORENO MAGALLON ANTONIO
+* PAHUA SERVIN RICARDO
+* RODRIGUEZ RODRIGUEZ CECILIA
+* VACA ESPINOZA MARTIN ALEJANDRO
