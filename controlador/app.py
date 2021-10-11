@@ -27,5 +27,9 @@ def recopilarDatosEditados():
     nombre = request.form['nombre']
     return 'Se guardaron los cambios del producto: '+nombre
 
+@app.route('/EliminarProducto')
+def EliminarProducto():
+    return render_template('Productos//eliminarProducto.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
