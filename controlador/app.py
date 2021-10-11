@@ -13,5 +13,10 @@ def consultarProductos():
 def registrarProducto():
     return render_template('Productos/registrarProducto.html')
 
+@app.route('/registrarNuevoProducto',methods=['post'])
+def registrarNuevoProducto():
+    nombre = request.form['nombre']
+    return 'Se ha registrado el producto: '+nombre
+
 if __name__ == '__main__':
     app.run(debug=True)
