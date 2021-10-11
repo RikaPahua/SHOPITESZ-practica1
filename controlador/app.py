@@ -18,5 +18,14 @@ def registrarNuevoProducto():
     nombre = request.form['nombre']
     return 'Se ha registrado el producto: '+nombre
 
+@app.route('/ModificarProducto')
+def ModificarProducto():
+    return render_template('Productos/editarProducto.html')
+
+@app.route('/recopilarDatosEditados',methods=['post'])
+def recopilarDatosEditados():
+    nombre = request.form['nombre']
+    return 'Se guardaron los cambios del producto: '+nombre
+
 if __name__ == '__main__':
     app.run(debug=True)
