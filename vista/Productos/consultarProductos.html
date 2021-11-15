@@ -1,15 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Productos Shopitesz</title>
-</head>
-<body>
-    <h1>LISTADO DE PRODUCTOS</h1>
-    <a href="/registrarProducto">Registrar nuevo producto</a>
+{% extends 'comunes/base.html'%}
+{% block content %}
+{{super()}}
+<div class="container">
+    <h1 id="titlcon">LISTADO DE PRODUCTOS</h1>
     <br/>
-    <table>
-        <tr>
+    <table class="table table-condensed" class="table table-bordered">
+       <thead>
+       <a href="/registrarProducto" class="btn btn-primary">Registrar nuevo producto</a>
+           <tr>
             <th>IMAGEN</th>
             <th>ID PRODUCTO</th>
             <th>ID CATEGORIA</th>
@@ -24,6 +22,7 @@
             <th>MODIFICAR</th>
             <th>ELIMINAR</th>
         </tr>
+        </thead>
         <tr>
             <td><img src="https://m.media-amazon.com/images/I/31BneiSff+S._AC_SX355_.jpg" width="120" height="70"></td>
             <td>1</td>
@@ -36,8 +35,8 @@
             <td>HP</td>
             <td>$ 500.00</td>
             <td>Activo</td>
-            <td><a href="/ModificarProducto">Editar</a> </td>
-            <td><a href="/EliminarProducto">Eliminar</a> </td>
+            <td><a href="/ModificarProducto"><span class="glyphicon glyphicon-edit"></span></a></td>
+            <td><a href="/EliminarProducto"><span class="glyphicon glyphicon-trash"></span></a></td>
         </tr>
         <tr>
             <td><img src="https://img.pccomponentes.com/articles/26/263614/lenovo-ideapad-s340-15iwl-intel-core-i5-8265u-8gb-1tb-ssd-156.jpg" width="120" height="90"></td>
@@ -51,8 +50,8 @@
             <td>Lenovo</td>
             <td>$ 350.00</td>
             <td>Activo</td>
-            <td><a href="/ModificarProducto">Editar</a> </td>
-            <td><a href="/EliminarProducto">Eliminar</a> </td>
+            <td><a href="/ModificarProducto"><span class="glyphicon glyphicon-edit"></span></a></td>
+            <td><a href="/EliminarProducto"><span class="glyphicon glyphicon-trash"></span></a></td>
         </tr>
         <tr>
             <td><img src="https://m.media-amazon.com/images/I/71StPc8W8DL._AC_SY355_.jpg" width="120" height="70"></td>
@@ -66,8 +65,8 @@
             <td>Brother</td>
             <td>$ 200.00</td>
             <td>Activo</td>
-            <td><a href="/ModificarProducto">Editar</a> </td>
-            <td><a href="/EliminarProducto">Eliminar</a> </td>
+            <td><a href="/ModificarProducto"><span class="glyphicon glyphicon-edit"></span></a></td>
+            <td><a href="/EliminarProducto"><span class="glyphicon glyphicon-trash"></span></a></td>
         </tr>
         <tr>
             <td><img src="https://resources.sears.com.mx/imgsplaza-sears/sears/?tp=f&id=3190686&t=original" width="120" height="90"></td>
@@ -81,8 +80,8 @@
             <td>Dell</td>
             <td>$ 525.00</td>
             <td>Activo</td>
-            <td><a href="/ModificarProducto">Editar</a> </td>
-            <td><a href="/EliminarProducto">Eliminar</a> </td>
+            <td><a href="/ModificarProducto"><span class="glyphicon glyphicon-edit"></span></a></td>
+            <td><a href="/EliminarProducto"><span class="glyphicon glyphicon-trash"></span></a></td>
         </tr>
         <tr>
             <td><img src="https://intercompras.com/images/product/EPSON_C11CG87301.jpg" width="120" height="70"></td>
@@ -96,10 +95,9 @@
             <td>Epson</td>
             <td>$ 230.00</td>
             <td>Activo</td>
-            <td><a href="/ModificarProducto">Editar</a> </td>
-            <td><a href="/EliminarProducto">Eliminar</a> </td>
+            <td><a href="/ModificarProducto"><span class="glyphicon glyphicon-edit"></span></a></td>
+            <td><a href="/EliminarProducto"><span class="glyphicon glyphicon-trash"></span></a></td>
         </tr>
     </table>
-    <a href="/">Home</a>
-</body>
-</html>
+    </div>
+{%endblock content%}
