@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/Shopitesz-Practica1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Shopitesz-Practica1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controlador/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/controlador/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/estilo.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/estilo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vista/Productos/consultarProductos.html" beforeDir="false" afterPath="$PROJECT_DIR$/vista/Productos/consultarProductos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vista/Productos/editarProducto.html" beforeDir="false" afterPath="$PROJECT_DIR$/vista/Productos/editarProducto.html" afterDir="false" />
@@ -22,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -134,7 +135,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../shopitesz/venv/bin/python" />
+      <option name="SDK_HOME" value="C:\Python37\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/controlador" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -175,8 +176,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app (1)" />
         <item itemvalue="Python.app" />
+        <item itemvalue="Python.app (1)" />
       </list>
     </recent_temporary>
   </component>
