@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df1a36a1-de50-4151-a2a9-768c4da3559c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Shopitesz-Practica1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Shopitesz-Practica1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/controlador/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/estilo.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/estilo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vista/Productos/consultarProductos.html" beforeDir="false" afterPath="$PROJECT_DIR$/vista/Productos/consultarProductos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vista/Productos/editarProducto.html" beforeDir="false" afterPath="$PROJECT_DIR$/vista/Productos/editarProducto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vista/Productos/registrarProducto.html" beforeDir="false" afterPath="$PROJECT_DIR$/vista/Productos/registrarProducto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vista/comunes/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/vista/comunes/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
